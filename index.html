@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Formulário sobre filmes</h1>
+        <p id="description">Gostaríamos de saber um pouco sobre você e seus hábitos no consumo de filmes.</p>
+    </header>
+ 
+
+    <div class="formulario">
+        <form id="survey-form">
+            <div class="info-usuario">
+                <label for="name" id="name-label">Nome</label>
+                <input type="text" id="name" placeholder="Insira seu nome" required>
+
+                <label for="email" id="email-label">E-mail</label>
+                <input type="email" id="email" placeholder="Insira seu e-mail" pattern=".+@*\.com" required>
+
+                <label for="age" id="number-label" required>Idade</label>
+                <input type="number" id="number" placeholder="Qual a sua idade?" min="13" max="99" required>
+
+            </div>
+
+            <div class="plataforma">
+                <div class="escolha-plataforma">
+                    <label for="platform-choice" id="platform-choice">Qual sua plataforma preferida para assistir filmes?</label>
+                    <select name="plataform-choice" id="dropdown">
+                        <option value="">-- Por favor, escolha uma opção --</option>
+                        <option value="cinema">Cinema</option>
+                        <option value="download">Download</option>
+                        <option value="streaming">Streaming</option>
+                        <option value="tv-aberta">TV Aberta</option>
+                        <option value="tv-cabo">TV por Assinatura</option>
+                    </select>
+                </div>
+                
+                <div class="audio-filme">
+                    <p>Você prefere filme dublado ou legendado?</p>
+                    <div class="escolha-audioDublado">
+                        <input type="radio" id="dublado" name="audio" value="dublado">
+                        <label for="dublado">Dublado</label>
+                    </div>
+                    <div class="escolha-audioLegendado">
+                        <input type="radio" id="original" name="audio" value="original">
+                        <label for="legendado">Legendado</label>
+                    </div>
+
+                </div>
+
+                <div class="generos-preferidos">
+                    <p>Selecione seus gêneros preferidos</p>
+                    <div class="generos-preferidosOpcoes">
+                        <div class="generoOpcao">
+                            <input type="checkbox" id="acao" name="favorite-genre" value="acao">
+                            <label for="acao">Ação</label>
+                        </div>
+                        <div class="generoOpcao">
+                            <input type="checkbox" id="aventura" name="favorite-genre" value="aventura">
+                            <label for="aventura">Aventura</label>
+                        </div>
+
+                        <div class="generoOpcao">
+                            <input type="checkbox" id="comedia" name="favorite-genre" value="comedia">
+                            <label for="comedia">Comédia</label>
+                        </div>
+
+                        <div class="generoOpcao">
+                            <input type="checkbox" id="drama" name="favorite-genre" value="drama">
+                            <label for="drama">Drama</label>
+                        </div>
+
+                        <div class="generoOpcao">
+                            <input type="checkbox" id="romance" name="favorite-genre" value="romance">
+                            <label for="romance">Romance</label>
+                        </div>
+
+                        <div class="generoOpcao">
+                            <input type="checkbox" id="suspense" name="favorite-genre" value="suspense">
+                            <label for="suspense">Suspense</label>
+                        </div>
+
+                        <div class="generoOpcao">
+                            <input type="checkbox" id="terror" name="favorite-genre" value="terror">
+                            <label for="terror">Terror</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="filmes-preferidos">
+                    <label for="filme-preferido">Qual seu filme preferido? Por quê?</label>
+                    <textarea name="filme-preferido" id="filme-preferido" cols="30" rows="10"></textarea>
+                </div>
+
+            </div>
+
+            <div class="submeter">
+                <input type="submit" id="submit" value="Enviar">
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
