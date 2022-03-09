@@ -138,6 +138,7 @@ textarea {
 
 .submeter input {
     margin-top: 20px;
+    margin-left: 5px;
     background-color: #FFAAAA;
     border: 2px solid #D46A6A;
     border-radius: 10px;
@@ -145,4 +146,5 @@ textarea {
     font-weight: bold;
     color: #FFFFFF;
     cursor: pointer;
+    padding: 10px 220px;
 }
