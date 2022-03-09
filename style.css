@@ -24,6 +24,7 @@ body::before {
     opacity: 0.1;
 }
 
+
 header {
     width: 100%;
     max-width: 560px;
@@ -63,7 +64,6 @@ header {
 .info-usuario {
     display: flex;
     flex-direction: column;
-    padding: 10px 0 30px;
   }
 
   .info-usuario input {
@@ -78,8 +78,11 @@ header {
   .escolha-plataforma  {
       display: flex;
       flex-direction: column;
-      padding: auto;
       
+}
+
+#platform-choice {
+    padding-top: 10px;
 }
   
 #dropdown {
@@ -135,7 +138,6 @@ textarea {
 
 .submeter input {
     margin-top: 20px;
-    padding: 10px 260px;
     background-color: #FFAAAA;
     border: 2px solid #D46A6A;
     border-radius: 10px;
