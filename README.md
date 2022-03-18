@@ -8,7 +8,7 @@ O objetivo foi criar um formulário para recolher as opiniões de usuários sobr
 
 ## Layout do projeto
 
-![Página de tributo](link "Primeira parte da página")
+![Layout do formulário](https://github.com/sarahrubia/formulario-filmes/blob/master/imgs/layout-formulario.png?raw=true)
 
 ### Interaja com a página
 
